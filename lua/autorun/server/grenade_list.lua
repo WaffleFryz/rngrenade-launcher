@@ -18,7 +18,7 @@ function GetGrenadeList()
 		readInput:Close()
 	else
 		local writeFile = file.Open(file_name, "w", "DATA")
-		writeFile:Write("ttt_confgrenade_proj\nttt_firegrenade_proj\nttt_smokegrenade_proj")
+		writeFile:Write("ttt_confgrenade_proj\nttt_firegrenade_proj\nttt_smokegrenade_proj\nttt_liftgren_proj\nttt_zapgren_proj\nttt_clutterbomb_proj")
 		writeFile:Close()
 		grenade_list = default_grenade_list
 	end
